@@ -2,7 +2,7 @@ import os
 import re
 
 # Ask the user for which file to analyze
-text_file = input("Which text file would you like to analyze (within this folder)? ")
+text_file = input("Which text file would you like to analyze? ")
 absolute_path = os.path.abspath(text_file)
 
 
